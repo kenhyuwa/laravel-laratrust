@@ -3,7 +3,7 @@
 ## STARTER-PACK-LARATRUST
 Starter web project laravel base on [Modern AdminLTE](https://github.com/kenhyuwa/modern-adminlte)
 
-![STARTER-PACK-LARATRUST](public/images/modern-skin-messenger.png?raw=true "STARTER-PACK-LARATRUST")
+![STARTER-PACK-LARATRUST](public/images/nestable.png?raw=true "STARTER-PACK-LARATRUST")
 
 ## Fiture
 1. Authentication (login, register, reset password)

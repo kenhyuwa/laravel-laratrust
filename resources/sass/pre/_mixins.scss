@@ -1,0 +1,36 @@
+@mixin radius($radius) {
+    -webkit-border-radius: $radius !important;
+    -moz-border-radius: $radius !important;
+    -ms-border-radius: $radius !important;
+    border-radius: $radius !important;
+}
+@mixin shadow($shadowinfo...) {
+    -webkit-box-shadow: $shadowinfo !important;
+    -moz-box-shadow: $shadowinfo !important;
+    -ms-box-shadow: $shadowinfo !important;
+    box-shadow: $shadowinfo !important;
+}
+@mixin transform($transform) {
+    -moz-transform: $transform !important;
+    -ms-transform: $transform !important;
+    -o-transform: $transform !important;
+    -webkit-transform: $transform !important;
+    transform: $transform !important;
+}
+@mixin transition($transition...) {
+    -moz-transition: $transition !important;
+    -o-transition: $transition !important;
+    -webkit-transition: $transition !important;
+    transition: $transition !important;
+}
+@mixin rotation($deg, $scale){
+    @include transform(rotate($deg) scale($scale));
+}
+/**
+* BACKGROUND
+**/
+@mixin b_gradient($from, $to){
+    background: $from;
+    background: -webkit-linear-gradient(45deg, $to, $from);
+    background: linear-gradient(45deg, $to, $from);
+}
